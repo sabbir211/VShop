@@ -2,6 +2,7 @@ import React from 'react';
 import NavigationBar from '../NavigatitonBar/NavigationBar';
 import TopSearchBar from '../TopSearchBar';
 import Banner from './Banner';
+import OurCommitment from './OurCommitment';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <TopSearchBar></TopSearchBar>
             <NavigationBar></NavigationBar>
             <Banner></Banner>
+            <OurCommitment></OurCommitment>
         </div>
     );
 };

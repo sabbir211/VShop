@@ -10,16 +10,16 @@ const Banner = () => {
                     WE ARE HERE
                 </Typography>
                 <Typography className="text-4xl lg:text-6xl font-semibold">
-                   FOR SAVING YOUR <br />
-                    HEALTH <br />
-                   MONEY  <br />
-                   TIME
-                   
+                    FOR SAVING YOUR <br />
+                    HEALTH, <br />
+                    MONEY,  <br />
+                    TIME
+
                 </Typography>
-                
+
             </div>
             <div className="lg:pl-8">
-                <Image className='' src={'/bannerImg.png'} width='611' height="405" alt="banner image"/>
+                <Image className='' src={'/bannerImg.png'} width='611' height="405" alt="banner image" />
             </div>
         </div>
     );
